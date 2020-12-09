@@ -27,7 +27,7 @@ func main() {
 
 	scanner := bufio.NewScanner(file)
 	contador := 1
-	diretorio := "casaCampo/"
+	diretorio := "../casaCampo/"
 	for scanner.Scan() {
 		destino := diretorio + fmt.Sprintf("image%d.jpg", contador)
 		contador += 1
